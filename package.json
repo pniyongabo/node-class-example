@@ -1,0 +1,24 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "example node project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Patrick Niyongabo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  }
+}
